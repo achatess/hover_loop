@@ -1,0 +1,51 @@
+* {
+	margin:0px;
+	padding:0px;
+	border:0px none;	
+}
+
+.class{
+	width: 70px;
+	height: 70px;
+  background-color: cyan;
+	float: left;
+	margin-top: 5px;
+}
+
+.classa{
+	width: 70px;
+  background-color: red;
+	animation-name: spin;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+@-moz-keyframes spin{
+	100%{
+		width: 70px;
+		transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+	}
+}
+
+.classb{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: 5px;
+  background-color: green;
+	animation-name: spinout;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	-moz-animation-name: spinout;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: 1;
+}
+
+@-moz-keyframes spinout{
+	100%{
+		width: 70px;
+		transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+	}
+}
