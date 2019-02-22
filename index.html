@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+		<script>
+			$(function(){
+				$(".class").mouseover(function(){
+					$(".class").addClass("classa");
+				});
+				$(".class").mouseout(function(){
+					$(".class").removeClass("classa");
+					$(".class").addClass("classb");
+				});
+				$(".class").mouseover(function(){
+					$(".class").removeClass("classb");
+					$(".class").addClass("class");
+				});	
+			});
+			$(function(){
+		</script>
+    
+   </head>
+   
+   <body>
+   
+     <div class="class">
+     </div>
+   
+   </body>
+   
+   </html>
