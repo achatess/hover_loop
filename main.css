@@ -33,7 +33,7 @@
 	height: 70px;
 	float: left;
 	margin-top: 5px;
-  background-color: green;
+  	background-color: cyan;
 	animation-name: spinout;
 	animation-duration: 1s;
 	animation-iteration-count: 1;
